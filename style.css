@@ -1,0 +1,117 @@
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #e0e0e0;
+        }
+
+    
+        .container {
+            display: flex;
+            width: 800px;
+            background-color: #ffffff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            overflow: hidden;
+        }
+
+        .signin-section {
+            width: 50%;
+            padding: 40px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .signin-section h2 {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+
+        .signin-section input[type="text"],
+        .signin-section input[type="password"] {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #dcdcdc;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+
+        .signin-section button {
+            width: 100%;
+            padding: 10px;
+            margin-top: 10px;
+            border: none;
+            border-radius: 5px;
+            background-color: #28a745;
+            color: #fff;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        
+        .social-signin {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+
+        .social-signin a {
+            margin: 0 10px;
+            font-size: 20px;
+            text-decoration: none;
+        }
+
+        .social-signin .facebook { 
+         color: #3b5998;
+         }
+        .social-signin .google { 
+            color: #db4437; 
+        }
+        .social-signin .linkedin { 
+            color: #0077b5; 
+        }
+
+        /* Right section (Welcome message) */
+        .welcome-section
+         {
+            width: 50%;
+            background: linear-gradient(to bottom right, #2ecc71, #27ae60);
+            color: #ffffff;
+            padding: 40px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+
+        .welcome-section h2 {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        .welcome-section p {
+            font-size: 16px;
+            margin: 10px 0;
+            line-height: 1.5;
+        }
+
+        .welcome-section a {
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: rgba(255, 255, 255, 0.2);
+            color: #ffffff;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 14px;
+        }
